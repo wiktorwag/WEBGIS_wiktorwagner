@@ -1,0 +1,89 @@
+body{
+	background-color: lightblue;
+	background-position: left top;
+	background-attachment: fixed;
+}
+header{
+	text-align: center;
+	font-family: Helvetica sans-serif;
+	font-size: 50px;
+	color: darkred;
+	background-color: lightblue;
+	background-repeat: no-repeat;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	background-color: lightblue;
+	padding: 10px;
+  min-height: 100vh;
+  }
+  
+  .grid-container > div {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	  border: solid 1px black;
+  }
+.button {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.mapa{
+	background-color: white;
+     height: 600px;
+     width: 100%;
+     text-align: center;
+     border-left-style: double;
+     border-left-color: darkred;
+     border-left-width: thick;
+     border-top-style: double;
+     border-top-color: darkred;
+     border-top-width: thick;
+     clear: both;
+     float: none;
+     margin-bottom: 20px;
+     margin-right: 160px;
+ }
+p{
+color: white;
+font-size: 20px;
+font-weight: bold;
+text-shadow: 1px 1px black;
+background: rgba(0,0,0,0.1);}
+
+footer{
+	float: none;
+	width: 100%;
+	height: 35px;
+  margin: 0;
+	text-align: center;
+	color: #D4CDDC;
+}
+
+div.item{
+  height: 30vh;
+  width: 70vw;
+}
+#stopka{
+  color: white;
+font-size: 20px;
+font-weight: bold;
+}
+span{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

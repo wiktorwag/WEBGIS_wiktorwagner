@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<title>Najciekawsze miejsca turystyczne na świecie</title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/css/main.css">
+<script src="https://js.arcgis.com/4.14/"></script>
+<script src="script1.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Najciekawsze miejsca turystyczne na świecie</h1>
+    </header>
+    <div class="grid-container">
+		<div class="item1" style="background-image: url(img/Machu_Picchu.jpg); background-size: cover; background-repeat: no-repeat; ">	
+			<button class="button">1. Machu Picchu, Peru</button>
+			<p>Najlepiej zachowane miasto Inków, w odległości 112 km od Cuzco. 
+				Położone jest na wysokości 2090–2400 m n.p.m., na przełęczy między Huayna Picchu a Machu Picchu w peruwiańskich Andach. 
+				Poniżej płynie rzeka Urubamba.</p>
+	</div>
+	
+	<div class="item2" style="background-image: url(img/Angkor_Wat.jpg); background-size: cover; background-repeat: no-repeat; ">	
+		<button class="button">2. Angor Wat, Kambodża</button>
+		<p>Świątynia Angkor została zbudowana przez Surjawarmana II (1113-1150 n.e.) ku czci hinduskiego bóstwa Wisznu, z którym, jako władca-bóg, król ten się identyfikował. 
+			Czas budowy świątyni szacuje się na 32 do 35 lat. Całkowita powierzchnia razem z murami zewnętrznymi i fosą to 2,08 km². 
+			Najwyższa z wież mierzy 65 metrów. Mury świątyni zbudowano z laterytu ze względu na jego dużą twardość.</p>
+	</div>
+	
+		<div class="item3" style="background-image: url(img/Taj_Mahal.jpg); background-size: cover; background-repeat: no-repeat; ">	
+		<button class="button">3. Taj Mahal, Indie</button>
+		<p>Indyjskie mauzoleum wzniesione przez Szahdżahana z dynastii Wielkich Mogołów, na pamiątkę przedwcześnie zmarłej, ukochanej żony Mumtaz Mahal. 
+			Obiekt bywa nazywany świątynią miłośc.</p>
+		</div>
+
+
+	<div class="item4" style="background-image: url(img/Petra_Treasury.jpg); background-size: cover; background-repeat: no-repeat; ">	
+		<button class="button">4. Petra – świątynia w skale, Jordania</button>
+		<p>Ruiny miasta Nabatejczyków, którego rozkwit miał miejsce w czasach antycznych, III w. p.n.e. do I w. n.e. 
+			Petra była wtedy stolicą królestwa Nabatejczyków. Znajduje się w południowo-zachodniej Jordanii. 
+			Położona jest w skalnej dolinie, do której prowadzi jedna wąska droga wśród skał – wąwóz As-Sik. Petra słynie z licznych budowli wykutych w skałach. 
+			Sami Nabatejczycy zwali Petrę Rqm (Rakmu), co oznacza „wielobarwna”.</p>
+		</div>
+
+	<div class="item5" style="background-image: url(img/Bayon_Angkor.jpg); background-size: cover; background-repeat: no-repeat; ">	
+		<button class="button">5. Świątynia Bayon, Kambodża</button>
+		<p>świątynia buddyjska w khmerskim Angkor Thom, na terenie kompleksu zabytkowego Angkor, 
+			zbudowana przez króla Dżajawarmana VII (lata panowania 1181-1218), a porzucona w związku z ucieczką całej ludności z miasta w 1431 r. i 
+			przeniesieniem stolicy państwa na południe.</p>
+		</div>
+
+	
+	<div class="item6" style="background-image: url(img/Córdoba.jpg); background-size: cover; background-repeat: no-repeat; "> 	
+		<button class="button">6. Wielki meczet i katedra w Kordobie, Hiszpania</button>
+		<p>Wielki Meczet w Kordobie, zwany po hiszpańsku La Mezquita, pochodzący z VIII w., lecz wielokrotnie przebudowywany, 
+			służy obecnie za katedrę rzymskokatolicką diecezji Córdoba w Hiszpanii. 
+			Z kolei Wielki Meczet stanął na miejscu kościoła wzniesionego przez Wizygotów panujących tu przed najazdem arabskim na Półwysep Iberyjski. 
+			La Mezquita jest jednym z najbardziej znanych meczetów na świecie, głównie dzięki słynnej sali z lasem kolumn. 
+			Po rekonkwiście Hiszpanie postawili na środku meczetu katedrę gotycką. Jest największym byłym meczetem w Europie, jego powierzchnia to ok. 23 000 m².</p>
+	</div>
+	
+	<div class="item7" style="border: none;">	
+		
+		</div>
+		<div class="item">
+			<div class="item" id="viewDiv"></div>
+			<button type="button" id="topo">Mapa topograficzna</button>
+			<button type="button" id="sat">Mapa satelitarna</button>
+			<button type="button" id="OSM">Mapa OSM</button>
+			<button type="button" id="agol">AGOL</button>
+			<div class="containerRight">
+				<div class="item" ></div>
+				<div class="item border"></div>
+			</div>
+			</div>
+    </div>	
+    <footer>
+      <span> Copyright &copy; Wiktor Wagner, 2020</span> 
+    </footer>
+    </body>
+    </html>
